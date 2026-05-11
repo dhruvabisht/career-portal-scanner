@@ -1,0 +1,84 @@
+candidate:
+  full_name: "Dhruva Bisht"
+  email: "dhruvabisht.18@gmail.com"
+  phone: "+353 870376538"
+  location: "Dublin, Ireland"
+  linkedin: "linkedin.com/in/dhruvabisht"
+  portfolio_url: "https://dhruvabisht.com"
+  github: "github.com/dhruvabisht"
+  visa_status: "Stamp 1G Graduate Visa — full work authorisation, no employer sponsorship required"
+
+target_roles:
+  primary:
+    - "Full-Stack Software Engineer"
+    - "Applied AI/ML Engineer"
+    - "Technical Product Owner"
+    - "Software Developer"
+    - "Software Engineer"
+    - "AI Developer"
+    - "QA Engineer"
+    - "Business Analyst"
+    - "ML Engineer"
+    - "Cloud Engineer"
+  secondary:
+    - "AI Auditor/Compliance"
+    - "Technical BA"
+    - "Solutions Architect"
+    - "Data Analyst/Engineer"
+  archetypes:
+    - name: "Full-Stack Software Engineer"
+      level: "Junior/Mid"
+      fit: "primary"
+    - name: "Applied AI / ML Engineer"
+      level: "Junior/Mid"
+      fit: "primary"
+    - name: "Technical Product Owner"
+      level: "Mid"
+      fit: "primary"
+    - name: "QA / Test Engineer"
+      level: "Junior/Mid"
+      fit: "primary"
+    - name: "Business Analyst / Data Analyst"
+      level: "Junior/Mid"
+      fit: "secondary"
+    - name: "Solutions Architect"
+      level: "Junior/Mid"
+      fit: "secondary"
+
+narrative:
+  headline: "Full-stack engineer and applied AI builder, MSc CS UCD Dublin 2025"
+  superpowers:
+    - "End-to-end delivery — product ownership and engineering in one person"
+    - "Applied AI integration — Claude API, OpenAI, agentic pipelines in production"
+    - "Real proof points — 84% accuracy Sentinel-AI, 60% manual review reduction, 10k events/min Kafka engine"
+    - "Fast ramp — shipped NomadOps from scratch (PO + engineer) within weeks"
+  proof_points:
+    - name: "Sentinel-AI"
+      hero_metric: "84% fraud detection accuracy, 60% manual review reduction"
+    - name: "Venturella"
+      hero_metric: "Full payment layer, sub-200ms PostgreSQL queries"
+    - name: "Advice Bytes chatbot"
+      hero_metric: "30% inbound reduction, 87% GDPR accuracy"
+    - name: "Kafka Ad Engine"
+      hero_metric: "10k events/min, sub-100ms latency"
+    - name: "NomadOps"
+      hero_metric: "Full PO + engineer delivery, agentic workflows"
+
+compensation:
+  target_range: "€40,000–€60,000"
+  currency: "EUR"
+  minimum: "€30,000"
+  note: "Salaries ABOVE €60k are a POSITIVE signal — do not penalise"
+  location_flexibility: "Dublin preferred; open to hybrid or remote within Ireland"
+
+location:
+  country: "Ireland"
+  city: "Dublin"
+  timezone: "IST (UTC+1)"
+  visa_status: "Stamp 1G — full work auth, no sponsorship needed"
+  deal_breakers:
+    - "below €25k base"
+    - "100% on-site outside Dublin with no flexibility"
+
+cv:
+  output_format: "html"
