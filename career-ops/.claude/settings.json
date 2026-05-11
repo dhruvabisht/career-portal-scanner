@@ -1,0 +1,17 @@
+{
+  "dangerouslySkipPermissions": true,
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"/Applications/Dhruva/Projects/Career Ops Claude Automation/career-ops/sync-cv-tracker.mjs\"",
+            "timeout": 30,
+            "statusMessage": "Syncing suitable roles to cv-tracker.csv..."
+          }
+        ]
+      }
+    ]
+  }
+}
