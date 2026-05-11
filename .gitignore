@@ -5,8 +5,8 @@ data/pipeline.md
 data/scan-history.tsv
 reports/*.md
 !reports/.gitkeep
-output/*
-!output/.gitkeep
+# output/*
+# !output/.gitkeep
 batch/logs/*
 !batch/logs/.gitkeep
 batch/batch-state.tsv
@@ -21,9 +21,9 @@ writing-samples/*
 !writing-samples/README.md
 
 # User config and customization (never auto-updated)
-config/profile.yml
-portals.yml
-modes/_profile.md
+# config/profile.yml
+# portals.yml
+# modes/_profile.md
 .update-dismissed
 .update-lock
 
@@ -42,6 +42,6 @@ bun.lock
 
 # Claude Code local
 .claude/settings.local.json
-.claude/memory/
-career-dashboard
+# .claude/memory/
+# career-dashboard
 package-lock.json
