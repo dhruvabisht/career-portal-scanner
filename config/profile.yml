@@ -1,0 +1,60 @@
+candidate:
+  full_name: "Dhruva Bisht"
+  email: "dhruvabisht.18@gmail.com"
+  location: "Dublin, Ireland"
+  linkedin: "linkedin.com/in/dhruvabisht"
+  portfolio_url: "https://dhruvabisht.com"
+  github: "github.com/dhruvabisht"
+
+target_roles:
+  primary:
+    - "AI Engineer"
+    - "Forward Deployed AI Engineer"
+    - "AI Solutions Architect"
+    - "AI/Backend Engineer"
+  archetypes:
+    - name: "AI Forward Deployed Engineer"
+      level: "Mid"
+      fit: "primary"
+    - name: "Agentic / Automation Engineer"
+      level: "Mid"
+      fit: "primary"
+    - name: "AI Solutions Architect"
+      level: "Mid"
+      fit: "secondary"
+    - name: "AI Platform / LLMOps Engineer"
+      level: "Mid"
+      fit: "secondary"
+
+narrative:
+  headline: "AI engineer with production agentic pipelines, Claude API integrations, and enterprise delivery experience"
+  superpowers:
+    - "Production-grade agentic AI pipelines (Claude API, multi-agent)"
+    - "Fast end-to-end delivery — prototype to production"
+    - "Cloud-native backend systems on AWS"
+    - "Enterprise integration experience (Accenture scale)"
+  proof_points:
+    - name: "NomadOps — Claude API moderation pipeline"
+      hero_metric: "Production Claude API content moderation + Stripe/PayPal payment layer"
+    - name: "Sector8 AI — GDPR-compliant AI chatbot"
+      hero_metric: "30% reduction in support inquiries, 87% GDPR compliance accuracy"
+    - name: "Accenture — Automation pipeline"
+      hero_metric: "Eliminated 15 hours/week manual work via automated ingestion of 10,000+ files"
+
+compensation:
+  target_range: "€65,000–€90,000"
+  currency: "EUR"
+  minimum: "€55,000"
+  location_flexibility: "Hybrid preferred (Ireland)"
+
+location:
+  country: "Ireland"
+  city: "Dublin"
+  timezone: "GMT/IST"
+  visa_status: "No sponsorship needed"
+
+cv:
+  output_format: "html"
+
+# NOTE: Role titles at Advice Bytes (listed as "AI Engineer") and NomadEire
+# (listed as "AI/Backend Engineer") are flexible and can be adjusted per application.
