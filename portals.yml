@@ -1,0 +1,287 @@
+# Career-Ops Portal Configuration — Dhruva Bisht
+# Dublin, Ireland | Full-Stack / Applied AI / Product
+
+title_filter:
+  positive:
+    - Software Engineer
+    - Software Developer
+    - Full Stack
+    - Full-Stack
+    - Backend Engineer
+    - Backend Developer
+    - Frontend Engineer
+    - Frontend Developer
+    - Web Developer
+    - Application Developer
+    - Platform Engineer
+    - Cloud Engineer
+    - DevOps Engineer
+    - Site Reliability
+    - SRE
+    - AI Engineer
+    - Applied AI
+    - ML Engineer
+    - Machine Learning
+    - LLM
+    - Agentic
+    - GenAI
+    - Generative AI
+    - NLP Engineer
+    - AI Developer
+    - AI Specialist
+    - MLOps
+    - Data Scientist
+    - Product Owner
+    - Product Manager
+    - Technical Product
+    - Scrum Master
+    - QA Engineer
+    - Quality Assurance
+    - Test Engineer
+    - Automation Tester
+    - SDET
+    - Test Analyst
+    - Data Analyst
+    - Data Engineer
+    - Business Intelligence
+    - BI Developer
+    - Analytics Engineer
+    - Technology Consultant
+    - IT Consultant
+    - Technical Consultant
+    - Business Analyst
+    - Technical Business Analyst
+    - Systems Analyst
+    - Solutions Engineer
+    - Solutions Architect
+    - Integration Engineer
+    - Cloud Architect
+    - Graduate Engineer
+    - Graduate Developer
+    - Associate Engineer
+    - Associate Developer
+    - Junior Developer
+    - Junior Engineer
+    - Technology Analyst
+    - AI Auditor
+    - AI Compliance
+    - AI Risk
+    - Graduate
+    - Technology
+
+  negative:
+    - Principal
+    - Director
+    - VP
+    - Vice President
+    - C-Level
+    - CTO
+    - CIO
+    - Chief
+    - Head of Engineering
+    - Engineering Manager
+    - Staff Engineer
+    - PHP
+    - Ruby
+    - COBOL
+    - Mainframe
+    - Embedded
+    - Firmware
+    - FPGA
+    - ASIC
+    - Blockchain
+    - Web3
+    - Crypto
+    - SAP
+    - Oracle EBS
+    - Salesforce Admin
+    - Siebel
+    - Hardware
+    - Mechanical
+    - Electrical
+    - Network Engineer
+    - Senior
+
+tracked_companies:
+  - name: Intercom
+    careers_url: "https://job-boards.greenhouse.io/intercom"
+    api: "https://boards-api.greenhouse.io/v1/boards/intercom/jobs"
+    api_provider: greenhouse
+    enabled: true
+
+  - name: Anthropic
+    careers_url: "https://job-boards.greenhouse.io/anthropic"
+    api: "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs"
+    api_provider: greenhouse
+    enabled: true
+
+  - name: Vercel
+    careers_url: "https://job-boards.greenhouse.io/vercel"
+    api: "https://boards-api.greenhouse.io/v1/boards/vercel/jobs"
+    api_provider: greenhouse
+    enabled: true
+
+  - name: Glean
+    careers_url: "https://job-boards.greenhouse.io/gleanwork"
+    api: "https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs"
+    api_provider: greenhouse
+    enabled: true
+
+  - name: Wayve
+    careers_url: "https://job-boards.greenhouse.io/wayve"
+    api: "https://boards-api.greenhouse.io/v1/boards/wayve/jobs"
+    api_provider: greenhouse
+    enabled: true
+
+  - name: PolyAI
+    careers_url: "https://job-boards.greenhouse.io/polyai"
+    api: "https://boards-api.greenhouse.io/v1/boards/polyai/jobs"
+    api_provider: greenhouse
+    enabled: true
+
+  - name: Temporal
+    careers_url: "https://job-boards.greenhouse.io/temporal"
+    api: "https://boards-api.greenhouse.io/v1/boards/temporal/jobs"
+    api_provider: greenhouse
+    enabled: true
+
+  - name: Arize AI
+    careers_url: "https://job-boards.greenhouse.io/arizeai"
+    api: "https://boards-api.greenhouse.io/v1/boards/arizeai/jobs"
+    api_provider: greenhouse
+    enabled: true
+
+  - name: Runway ML
+    careers_url: "https://job-boards.greenhouse.io/runwayml"
+    api: "https://boards-api.greenhouse.io/v1/boards/runwayml/jobs"
+    api_provider: greenhouse
+    enabled: true
+
+  - name: Mistral AI
+    careers_url: "https://jobs.lever.co/mistral"
+    api: "https://api.lever.co/v0/postings/mistral?mode=json"
+    api_provider: lever
+    enabled: true
+
+  - name: Weights and Biases
+    careers_url: "https://jobs.lever.co/wandb"
+    api: "https://api.lever.co/v0/postings/wandb?mode=json"
+    api_provider: lever
+    enabled: true
+
+  - name: Synthesia
+    careers_url: "https://jobs.ashbyhq.com/synthesia"
+    api: "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
+    api_provider: ashby
+    ashby_slug: synthesia
+    enabled: true
+
+  - name: Faculty
+    careers_url: "https://jobs.ashbyhq.com/faculty"
+    api: "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
+    api_provider: ashby
+    ashby_slug: faculty
+    enabled: true
+
+  - name: Cohere
+    careers_url: "https://jobs.ashbyhq.com/cohere"
+    api: "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
+    api_provider: ashby
+    ashby_slug: cohere
+    enabled: true
+
+  - name: Supabase
+    careers_url: "https://jobs.ashbyhq.com/supabase"
+    api: "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
+    api_provider: ashby
+    ashby_slug: supabase
+    enabled: true
+
+  - name: Pinecone
+    careers_url: "https://jobs.ashbyhq.com/pinecone"
+    api: "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
+    api_provider: ashby
+    ashby_slug: pinecone
+    enabled: true
+
+  - name: LangChain
+    careers_url: "https://jobs.ashbyhq.com/langchain"
+    api: "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
+    api_provider: ashby
+    ashby_slug: langchain
+    enabled: true
+
+  - name: Perplexity
+    careers_url: "https://jobs.ashbyhq.com/perplexity"
+    api: "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
+    api_provider: ashby
+    ashby_slug: perplexity
+    enabled: true
+
+  - name: n8n
+    careers_url: "https://jobs.ashbyhq.com/n8n"
+    api: "https://jobs.ashbyhq.com/api/non-user-graphql?op=ApiJobBoardWithTeams"
+    api_provider: ashby
+    ashby_slug: n8n
+    enabled: true
+
+search_queries:
+  - query: "site:irishjobs.ie \"software engineer\" OR \"software developer\" OR \"cloud engineer\" OR \"Junior\" Dublin"
+    enabled: true
+    label: "IrishJobs — Software Engineer/Developer/Cloud/Junior"
+
+  - query: "site:irishjobs.ie \"full stack\" OR \"full-stack\" developer OR engineer Dublin"
+    enabled: true
+    label: "IrishJobs — Full Stack"
+
+  - query: "site:irishjobs.ie \"AI engineer\" OR \"machine learning\" OR \"applied AI\" Dublin"
+    enabled: true
+    label: "IrishJobs — AI/ML"
+
+  - query: "site:irishjobs.ie \"product owner\" OR \"product manager\" Dublin technology"
+    enabled: true
+    label: "IrishJobs — Product Owner/Manager"
+
+  - query: "site:irishjobs.ie \"QA engineer\" OR \"quality assurance\" OR \"test engineer\" Dublin"
+    enabled: true
+    label: "IrishJobs — QA/Test"
+
+  - query: "site:irishjobs.ie \"data analyst\" OR \"data engineer\" OR \"business intelligence\" Dublin"
+    enabled: true
+    label: "IrishJobs — Data/BI"
+
+  - query: "site:irishjobs.ie \"graduate programme\" OR \"graduate engineer\" OR \"technology graduate\" Dublin"
+    enabled: true
+    label: "IrishJobs — Graduate"
+
+  - query: "site:ie.indeed.com \"software engineer\" OR \"software developer\" \"cloud engineer\" OR \"Junior\" Dublin"
+    enabled: true
+    label: "Indeed IE — Software/Cloud/Junior"
+
+  - query: "site:ie.indeed.com \"AI engineer\" OR \"machine learning\" OR \"NLP\" Dublin Ireland"
+    enabled: true
+    label: "Indeed IE — AI/ML/NLP"
+
+  - query: "site:siliconrepublic.com/jobs \"software engineer\" OR \"developer\" Dublin Ireland"
+    enabled: true
+    label: "SiliconRepublic — Software"
+
+  - query: "site:siliconrepublic.com/jobs \"AI\" OR \"machine learning\" OR \"generative\" Dublin Ireland"
+    enabled: true
+    label: "SiliconRepublic — AI/ML"
+
+  - query: "site:boards.greenhouse.io OR site:job-boards.greenhouse.io \"software engineer\" OR \"developer\" \"Dublin\" OR \"Ireland\""
+    enabled: true
+    label: "Greenhouse — Software Dublin/Ireland"
+
+  - query: "site:jobs.ashbyhq.com \"software engineer\" \"cloud engineer\" OR \"Junior\" Dublin OR Ireland"
+    enabled: true
+    label: "Ashby — Software/Cloud/Junior Ireland"
+
+  - query: "site:jobs.ashbyhq.com \"AI engineer\" OR \"applied AI\" Dublin OR Ireland"
+    enabled: true
+    label: "Ashby — AI Engineer Ireland"
+
+  - query: "site:workatastartup.com \"software engineer\" OR \"full stack\" remote Europe OR Ireland"
+    enabled: true
+    label: "WorkAtStartup — Software/FullStack Remote Europe"

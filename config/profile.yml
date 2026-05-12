@@ -1,0 +1,97 @@
+candidate:
+  full_name: "Dhruva Bisht"
+  email: "dhruvabisht.18@gmail.com"
+  phone: "+353 870376538"
+  location: "Dublin, Ireland"
+  linkedin: "linkedin.com/in/dhruvabisht"
+  portfolio_url: "https://dhruvabisht.com/"
+  github: "github.com/dhruvabisht"
+
+target_roles:
+  primary:
+    - "Full-Stack Software Engineer"
+    - "Applied AI/ML Engineer"
+    - "Technical Product Owner"
+    - "Software Developer"
+    - "Software Engineer"
+    - "AI Developer"
+    - "QA Engineer"
+    - "Business Analyst"
+    - "ML Engineer"
+    - "Cloud Engineer"
+  secondary:
+    - "AI Auditor/Compliance"
+    - "Technical BA"
+    - "Solutions Architect"
+    - "Data Analyst/Engineer"
+  archetypes:
+    - name: "Full-Stack Software Engineer"
+      level: "Mid / Junior-Senior"
+      fit: "primary"
+    - name: "Applied AI/ML Engineer"
+      level: "Mid"
+      fit: "primary"
+    - name: "Technical Product Owner"
+      level: "Mid"
+      fit: "primary"
+    - name: "QA / SDET / Test Engineer"
+      level: "Mid"
+      fit: "primary"
+    - name: "Business Analyst / Technical BA"
+      level: "Mid"
+      fit: "primary"
+    - name: "Cloud / DevOps Engineer"
+      level: "Mid"
+      fit: "primary"
+    - name: "Solutions Architect"
+      level: "Mid"
+      fit: "secondary"
+    - name: "Data Engineer / Data Analyst"
+      level: "Mid"
+      fit: "secondary"
+
+narrative:
+  headline: "Full-Stack Engineer and Applied AI Developer — from MSc UCD to production AI systems"
+  exit_story: "Completed MSc CS at UCD Dublin with a 2:1, having previously worked at Accenture building enterprise microservices. Now building production AI systems in Dublin — Sentinel-AI (84% accuracy, 60% manual review reduction), a Kafka Ad Engine processing 10k events/min at sub-100ms, and an AI chatbot cutting inbound support by 30%. Stamp 1G Graduate Visa — full work authorisation, no sponsorship needed."
+  superpowers:
+    - "End-to-end delivery: shipped Sentinel-AI, Kafka Ad Engine, Venturella, NomadOps solo or near-solo"
+    - "AI integration: Claude, OpenAI, Gemini APIs + agentic workflows in production"
+    - "Measurable outcomes: always cites accuracy %, latency ms, volume reduction %"
+    - "Full-stack breadth: React, Node.js, Spring Boot, AWS, Docker — no handoff needed"
+    - "Dublin-based, immediately available, no sponsorship required"
+  proof_points:
+    - name: "Sentinel-AI"
+      url: "https://dhruvabisht.com/"
+      hero_metric: "84% classification accuracy, 60% manual review reduction"
+    - name: "Kafka Ad Engine"
+      url: "https://dhruvabisht.com/"
+      hero_metric: "10k events/min, sub-100ms latency"
+    - name: "Advice Bytes Chatbot"
+      url: "https://dhruvabisht.com/"
+      hero_metric: "30% inbound reduction, 87% GDPR accuracy"
+    - name: "Venturella"
+      url: "https://dhruvabisht.com/"
+      hero_metric: "Full payment layer, sub-200ms PostgreSQL"
+    - name: "NomadOps"
+      url: "https://dhruvabisht.com/"
+      hero_metric: "Full PO + engineer delivery, end-to-end product"
+
+compensation:
+  target_range: "€40,000–€60,000"
+  currency: "EUR"
+  minimum: "€30,000"
+  floor_hard: "€25,000"
+  note: "Salaries ABOVE €60k are a POSITIVE signal — do not penalise. Score 5 if ≥€60k, score 4 if €45–60k, score 3 if €35–45k, score 1 if below €30k."
+  location_flexibility: "Dublin-based, open to hybrid or remote. No relocation required."
+
+location:
+  country: "Ireland"
+  city: "Dublin"
+  timezone: "GMT/IST"
+  visa_status: "Stamp 1G Graduate Visa — full work authorisation, no employer sponsorship needed"
+
+cv:
+  output_format: "html"
+
+language:
+  modes_dir: "modes"
