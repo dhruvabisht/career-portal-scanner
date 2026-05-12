@@ -1,1 +1,5 @@
 company_slug,date,role,score,pdf_path,report_path
+klaviyo,2026-05-12,AI Software Engineer II - Amplify C.S,4.6,output/2026-05-12/cv-dhruva-bisht-klaviyo-2026-05-12.pdf,reports/001-klaviyo-2026-05-12.md
+draftkings,2026-05-12,Software Engineer (Grads 2025/2026),3.3,output/2026-05-12/cv-dhruva-bisht-draftkings-2026-05-12.pdf,reports/002-draftkings-2026-05-12.md
+kefron,2026-05-12,Junior AI Engineer,3.6,output/2026-05-12/cv-dhruva-bisht-kefron-2026-05-12.pdf,reports/003-kefron-2026-05-12.md
+openai,2026-05-12,Forward Deployed Software Engineer - Dublin,3.6,output/2026-05-12/cv-dhruva-bisht-openai-2026-05-12.pdf,reports/004-openai-2026-05-12.md
