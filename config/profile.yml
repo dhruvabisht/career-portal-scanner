@@ -1,0 +1,94 @@
+candidate:
+  full_name: "Dhruva Bisht"
+  email: "dhruvabisht.18@gmail.com"
+  phone: "+353 870376538"
+  location: "Dublin, Ireland"
+  linkedin: "linkedin.com/in/dhruvabisht"
+  portfolio_url: "https://dhruvabisht.com"
+  visa_status: "Stamp 1G Graduate Visa (right to work in Ireland)"
+
+target_roles:
+  primary:
+    - "Full-Stack Software Engineer"
+    - "Applied AI/ML Engineer"
+    - "Software Engineer"
+    - "Software Developer"
+    - "AI Developer"
+    - "ML Engineer"
+    - "Cloud Engineer"
+    - "QA Engineer"
+    - "Business Analyst"
+    - "Technical Product Owner"
+  secondary:
+    - "AI Auditor / AI Compliance"
+    - "Technical Business Analyst"
+    - "Solutions Architect"
+    - "Data Analyst / Data Engineer"
+  archetypes:
+    - name: "Applied AI / Agentic Engineer"
+      level: "Mid"
+      fit: "primary"
+    - name: "Full-Stack Software Engineer"
+      level: "Mid"
+      fit: "primary"
+    - name: "Forward Deployed Engineer / Solutions Engineer"
+      level: "Mid"
+      fit: "primary"
+    - name: "ML Engineer / AI Infrastructure"
+      level: "Mid"
+      fit: "primary"
+    - name: "Technical Product Owner / PM"
+      level: "Mid"
+      fit: "primary"
+    - name: "Solutions Architect"
+      level: "Mid"
+      fit: "secondary"
+
+narrative:
+  headline: "Full-stack engineer and applied AI builder shipping production AI pipelines in Dublin"
+  exit_story: "Transitioned from enterprise consulting (Accenture) to startup product delivery (NomadEire/Advice Bytes), building AI compliance systems, real-time data pipelines, and agentic chatbots from scratch. MSc CS from UCD gives rigorous ML/systems foundations; hands-on production experience gives practical delivery credibility."
+  superpowers:
+    - "End-to-end delivery: requirements to production (NomadOps proof point)"
+    - "Applied AI in production: real accuracy metrics, not toy demos (Sentinel-AI 84%, Advice Bytes 87% GDPR)"
+    - "Full-stack depth: TypeScript/React frontend through Python/ML backend"
+    - "Event-driven / real-time systems: Kafka + Elasticsearch at 10k events/min"
+    - "LLM API integration: Claude, OpenAI, Gemini in production workflows"
+  proof_points:
+    - name: "Sentinel-AI"
+      hero_metric: "84% accuracy, 60% manual review reduction"
+      tech: "Python, scikit-learn, AWS Lambda, PostgreSQL"
+    - name: "Advice Bytes Chatbot"
+      hero_metric: "30% inbound reduction, 87% GDPR accuracy"
+      tech: "Claude API, OpenAI API, RAG, Supabase"
+    - name: "Kafka Ad Engine"
+      hero_metric: "10k events/min, sub-100ms latency"
+      tech: "Apache Kafka, Elasticsearch, Node.js"
+    - name: "Venturella Payment Layer"
+      hero_metric: "Sub-200ms PostgreSQL under concurrent load"
+      tech: "TypeScript, Node.js, Stripe, PostgreSQL"
+    - name: "NomadOps"
+      hero_metric: "Full PO + engineer delivery, end-to-end ownership"
+      tech: "TypeScript, React, Node.js"
+
+compensation:
+  target_range: "€40,000–€60,000"
+  currency: "EUR"
+  minimum: "€25,000"
+  note: "Salaries ABOVE €60k are a POSITIVE signal — score higher, not lower"
+  location_flexibility: "Dublin preferred; remote EMEA acceptable; open to London/Berlin with relocation support"
+
+location:
+  country: "Ireland"
+  city: "Dublin"
+  timezone: "IST (UTC+1)"
+  visa_status: "Stamp 1G Graduate Visa — right to work in Ireland"
+  remote_ok: true
+  relocation: "Open to London, Berlin with support"
+  regions_preferred:
+    - "Dublin / Ireland"
+    - "Remote EMEA"
+    - "London (hybrid acceptable)"
+    - "Berlin (hybrid acceptable)"
+
+language:
+  modes_dir: "modes"
