@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dhruva Bisht - CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page { width: 100%; max-width: 794px; margin: 0 auto; padding: 32px 40px; }
+
+  .header { margin-bottom: 20px; }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 2px;
+    line-height: 1.1;
+  }
+
+  .header-subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 8px;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+
+  .section { margin-bottom: 16px; }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .summary-text { font-size: 10.5px; line-height: 1.7; color: #2f2f2f; }
+
+  a { white-space: nowrap; }
+
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 6px; }
+
+  .competency-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 9.5px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 3px 9px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  .job { margin-bottom: 13px; }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 2px;
+  }
+
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .job-period { font-size: 10px; color: #777; white-space: nowrap; }
+
+  .job-role { font-size: 11px; font-weight: 600; color: #333; margin-bottom: 5px; }
+
+  .job ul { padding-left: 16px; margin-top: 4px; }
+
+  .job li { font-size: 10.5px; line-height: 1.6; color: #333; margin-bottom: 3px; }
+
+  .job li strong { font-weight: 600; }
+
+  .products-table { width: 100%; border-collapse: collapse; margin-top: 4px; }
+
+  .products-table th {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 9.5px;
+    font-weight: 600;
+    color: #555;
+    text-align: left;
+    padding: 4px 8px;
+    background: hsl(187, 40%, 97%);
+    border-bottom: 1px solid #e2e2e2;
+  }
+
+  .products-table td {
+    font-size: 10px;
+    color: #333;
+    padding: 4px 8px;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
+  }
+
+  .products-table td:first-child { font-weight: 600; color: hsl(270, 70%, 45%); }
+
+  .project { margin-bottom: 8px; }
+
+  .project-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .project-desc { font-size: 10px; color: #444; margin-top: 2px; line-height: 1.55; }
+
+  .edu-item { margin-bottom: 7px; }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .edu-title { font-weight: 600; font-size: 11px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+
+  .cert-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 5px;
+  }
+
+  .cert-title { font-size: 10.5px; font-weight: 500; color: #333; }
+  .cert-org { color: hsl(270, 70%, 45%); }
+
+  .skills-block { margin-bottom: 5px; }
+  .skill-category { font-weight: 600; color: #333; font-size: 10.5px; }
+  .skill-values { font-size: 10.5px; color: #555; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page { padding: 24px 36px; }
+  }
+
+  .avoid-break, .job, .project, .edu-item, .cert-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Dhruva Bisht</h1>
+    <div class="header-subtitle">Technical Product Owner &nbsp;|&nbsp; Full-Stack Engineer</div>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <a href="mailto:dhruvabisht.18@gmail.com">dhruvabisht.18@gmail.com</a>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/dhruvabisht">linkedin.com/in/dhruvabisht</a>
+      <span class="separator">|</span>
+      <a href="https://github.com/dhruvabisht">github.com/dhruvabisht</a>
+      <span class="separator">|</span>
+      <a href="https://dhruvabisht.com">dhruvabisht.com</a>
+      <span class="separator">|</span>
+      <span>Dublin, Ireland</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+      Technical product owner and engineer with ~2 years building and shipping fintech, AI, and compliance products in fast-paced environments. Managed two cross-functional intern teams, led product design across the full cycle — requirements gathering, system architecture, roadmap, and launch — and owns three live products in production today. Combines hands-on engineering depth with the product instincts to set success metrics, prioritise by ROI, and drive measurable outcomes under ambiguity. Strong fintech domain grounding: payment infrastructure (Stripe, PayPal, custom gateways), GDPR compliance, and AI-powered content moderation. Based in Dublin; MSc Computer Science, UCD.
+    </div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">Product Roadmap</span>
+      <span class="competency-tag">Requirements Gathering</span>
+      <span class="competency-tag">People Management</span>
+      <span class="competency-tag">System Architecture</span>
+      <span class="competency-tag">Success Metrics & KPIs</span>
+      <span class="competency-tag">Cross-functional Delivery</span>
+      <span class="competency-tag">ROI-based Prioritisation</span>
+      <span class="competency-tag">Payment Systems</span>
+      <span class="competency-tag">GDPR Compliance</span>
+      <span class="competency-tag">Agentic AI / LLM</span>
+      <span class="competency-tag">Agile Delivery</span>
+      <span class="competency-tag">Stakeholder Management</span>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">NomadEire</span>
+        <span class="job-period">Oct 2025 – Present (~7 months) | Dublin, Ireland</span>
+      </div>
+      <div class="job-role">Software Engineer &amp; Technical Product Owner</div>
+      <ul>
+        <li><strong>Managed two intern teams end-to-end:</strong> defined work streams, ran sprint ceremonies, reviewed technical output, and was accountable for delivery timelines</li>
+        <li><strong>Led full product design cycle</strong> for the payment platform: ran stakeholder requirement sessions, defined system architecture, set success metrics, and owned the roadmap from ideation through launch and growth</li>
+        <li>Built payment infrastructure integrating Stripe, PayPal, and a custom gateway — now processing live transactions across multiple merchant tiers</li>
+        <li>Defined content moderation policy, shipped Claude API integration to production, and set quality KPIs — zero manual moderation backlog since launch</li>
+        <li>Optimised 18 PostgreSQL tables to sub-200ms response times; set the target metric and held the team to it</li>
+        <li>Iterated on merchant onboarding flow based on drop-off data in collaboration with design and operations stakeholders</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Advice Bytes</span>
+        <span class="job-period">May 2025 – Aug 2025 (~4 months)</span>
+      </div>
+      <div class="job-role">AI Product &amp; Software Development Intern</div>
+      <ul>
+        <li>Led requirements gathering and architecture design for AI chatbot product; trained on 20,000+ customer interactions; shipped on schedule and reduced inbound support load by 30% within the first quarter</li>
+        <li>Collaborated with legal team to define GDPR compliance requirements; designed and shipped automated guardrails achieving 87% accuracy, passing internal legal review</li>
+        <li>Balanced product scope against a fixed 4-month timeline; cut lower-priority features to protect the core experience and hit the launch date</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Accenture</span>
+        <span class="job-period">Oct 2023 – Aug 2024 (~1 year)</span>
+      </div>
+      <div class="job-role">Packaged App Developer</div>
+      <ul>
+        <li>Delivered automated document ingestion pipeline for a financial services client (10,000+ files); eliminated 15 hours/week of manual processing and freed the operations team for higher-value work</li>
+        <li>Resolved critical cross-system integration failures across three .NET enterprise modules; coordinated across client and internal engineering teams to diagnose, patch, and verify — unblocked a delayed delivery milestone</li>
+        <li>Navigated ambiguous, multi-stakeholder delivery in a large financial services environment</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- LIVE PRODUCTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Live Products</div>
+    <table class="products-table">
+      <tr>
+        <th>Product</th>
+        <th>Domain</th>
+        <th>Key Outcome</th>
+      </tr>
+      <tr>
+        <td>NomadOps &nbsp;<span style="font-size:9px;color:#888;">nomadops.online</span></td>
+        <td>Payments + AI moderation</td>
+        <td>Multi-provider payment platform with live transactions and Claude API content policy</td>
+      </tr>
+      <tr>
+        <td>Sector8 AI &nbsp;<span style="font-size:9px;color:#888;">sector8.ai</span></td>
+        <td>AI support + compliance</td>
+        <td>30% support volume reduction; 87% GDPR compliance accuracy at scale</td>
+      </tr>
+      <tr>
+        <td>Venturella &nbsp;<span style="font-size:9px;color:#888;">venturella.co</span></td>
+        <td>Multi-sector commerce</td>
+        <td>Production platform across multiple commercial verticals</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Selected Projects</div>
+
+    <div class="project">
+      <span class="project-title">Contextual Ad Engine</span>
+      <div class="project-desc">Real-time webpage-to-ad matching under 100ms. Defined requirements, designed distributed architecture, shipped end-to-end. <span style="color:#888;font-size:9.5px;">Java, Kafka, Elasticsearch</span></div>
+    </div>
+
+    <div class="project">
+      <span class="project-title">Sentinel-AI</span>
+      <div class="project-desc">Multilingual policy violation detector for social media. Defined detection categories, built the pipeline, shipped to production. <span style="color:#888;font-size:9.5px;">Python, Gemini API, AWS Lambda</span></div>
+    </div>
+
+    <div class="project">
+      <span class="project-title">Lynk Browser</span>
+      <div class="project-desc">Native macOS developer browser built and shipped end-to-end. <span style="color:#888;font-size:9.5px;">Electron, React, TypeScript</span></div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">MSc Computer Science &nbsp;— &nbsp;<span class="edu-org">University College Dublin</span></span>
+        <span class="edu-year">2024 – 2025</span>
+      </div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">BTech Computer Science Engineering &nbsp;— &nbsp;<span class="edu-org">Graphic Era University</span></span>
+        <span class="edu-year">2019 – 2023</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="section avoid-break">
+    <div class="section-title">Certifications</div>
+
+    <div class="cert-item">
+      <span class="cert-title">AWS Certified Cloud Practitioner (CLF-C02)</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title">Microsoft Azure AI Fundamentals</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title">Python for Data Science, AI &amp; Development &nbsp;— &nbsp;<span class="cert-org">IBM</span></span>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Technical Skills</div>
+
+    <div class="skills-block">
+      <span class="skill-category">Languages: </span>
+      <span class="skill-values">JavaScript, TypeScript, Python, Java, Swift, SQL</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">Frameworks &amp; Tools: </span>
+      <span class="skill-values">React, Node.js, Spring Boot, AWS, Docker, Supabase, Kafka, Elasticsearch</span>
+    </div>
+    <div class="skills-block">
+      <span class="skill-category">Domains: </span>
+      <span class="skill-values">Payment systems (Stripe, PayPal), GDPR compliance, agentic AI, content moderation, cloud infrastructure (AWS Lambda)</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
