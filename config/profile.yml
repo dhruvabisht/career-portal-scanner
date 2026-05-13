@@ -1,0 +1,58 @@
+candidate:
+  full_name: "Dhruva Bisht"
+  email: "dhruvabisht.18@gmail.com"
+  phone: ""
+  location: "Dublin, Ireland"
+  linkedin: "linkedin.com/in/dhruvabisht"
+  portfolio_url: "https://dhruvabisht.com"
+  github: "github.com/dhruvabisht"
+
+target_roles:
+  primary:
+    - "Software Engineer"
+    - "Full-Stack Engineer"
+    - "AI Engineer"
+  archetypes:
+    - name: "Full-Stack / Backend Engineer"
+      level: "Junior/Mid"
+      fit: "primary"
+    - name: "AI/ML Engineer"
+      level: "Junior/Mid"
+      fit: "primary"
+    - name: "Technical Product Owner"
+      level: "Junior"
+      fit: "adjacent"
+
+narrative:
+  headline: "Full-stack engineer shipping production AI and payment systems"
+  exit_story: "MSc CS student at UCD Dublin building live products in payments, compliance, and agentic AI — currently seeking internships and graduate roles."
+  superpowers:
+    - "Shipping production AI pipelines end-to-end (Claude API, Gemini, scikit-learn)"
+    - "Payment infrastructure (Stripe, PayPal, custom gateways)"
+    - "GDPR-compliant system design"
+    - "Fast delivery from zero to production"
+  proof_points:
+    - name: "NomadOps"
+      url: "https://nomadops.online"
+      hero_metric: "Live payment platform with Claude API moderation"
+    - name: "Sector8 AI"
+      url: "https://sector8.ai"
+      hero_metric: "30% support volume reduction, 87% compliance accuracy"
+    - name: "Venturella"
+      url: "https://venturella.co"
+      hero_metric: "Production platform across multiple commercial sectors"
+
+compensation:
+  target_range: "EUR 30K-50K"
+  currency: "EUR"
+  minimum: "EUR 25K"
+  location_flexibility: "Dublin on-site or hybrid preferred"
+
+location:
+  country: "Ireland"
+  city: "Dublin"
+  timezone: "GMT"
+  visa_status: "EU student visa — check work authorisation requirements"
+
+cv:
+  output_format: "html"
