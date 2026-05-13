@@ -1,5 +1,5 @@
 # Dhruva Bisht
-**Technical Product Builder | Full-Stack Engineer**
+**Technical Product Owner | Full-Stack Engineer**
 
 Dublin, Ireland | dhruvabisht.18@gmail.com | linkedin.com/in/dhruvabisht | dhruvabisht.com | github.com/dhruvabisht
 
@@ -7,50 +7,52 @@ Dublin, Ireland | dhruvabisht.18@gmail.com | linkedin.com/in/dhruvabisht | dhruv
 
 ## Summary
 
-Technical product builder with a track record of taking products from ideation to production in fintech, AI, and compliance domains. Owns the full product lifecycle — defines success metrics, sets the roadmap, makes engineering trade-off decisions, and iterates on data. Built and shipped live payment infrastructure (Stripe, PayPal, custom gateway), an AI-powered support platform with GDPR guardrails, and a real-time compliance system — all currently in production. Combines hands-on engineering depth with the business sense to prioritise by ROI and deliver measurable outcomes under ambiguity. Based in Dublin; MSc Computer Science, UCD.
+Technical product owner and engineer with ~2 years building and shipping fintech, AI, and compliance products in fast-paced environments. Managed two cross-functional intern teams, led product design across the full cycle — requirements gathering, system architecture, roadmap, and launch — and owns three live products in production today. Combines hands-on engineering depth with the product instincts to set success metrics, prioritise by ROI, and drive measurable outcomes under ambiguity. Strong fintech domain grounding: payment infrastructure (Stripe, PayPal, custom gateways), GDPR compliance, and AI-powered content moderation. Based in Dublin; MSc Computer Science, UCD.
 
 ---
 
 ## Experience
 
-### Software Engineer & Technical Product Lead — NomadEire
-*October 2025 – Present | Dublin, Ireland*
+### Software Engineer & Technical Product Owner — NomadEire
+*October 2025 – Present (~7 months) | Dublin, Ireland*
 
-- Defined product requirements, success metrics, and technical roadmap for end-to-end payment infrastructure; integrated Stripe, PayPal, and a custom gateway into a unified merchant platform now processing live transactions
-- Owned content moderation product from policy definition to production launch: designed violation categories, shipped Claude API integration, and set quality KPIs — zero human moderation backlog since launch
-- Drove database optimisation initiative across 18 PostgreSQL tables; set sub-200ms response time as the non-negotiable metric and delivered it
-- Collaborated with design and operations stakeholders to iterate on merchant onboarding flow based on drop-off data
+- **Managed two intern teams**: defined work streams, ran sprint ceremonies, unblocked delivery, and reviewed technical output — direct day-to-day ownership of people and output
+- **Led full product design cycle** for payment platform: ran stakeholder requirement sessions, defined system architecture, set success metrics, and owned the roadmap from ideation through launch
+- Built end-to-end payment infrastructure integrating Stripe, PayPal, and a custom gateway — now processing live transactions across multiple merchant tiers
+- Defined content moderation policy, shipped Claude API integration to production, and set quality KPIs — zero backlog since launch
+- Drove database optimisation across 18 PostgreSQL tables; set sub-200ms response as the non-negotiable target metric and delivered it
+- Operated cross-functionally with design and operations stakeholders; iterated on merchant onboarding flow using drop-off data
 
 ### AI Product & Software Development Intern — Advice Bytes
-*May 2025 – August 2025*
+*May 2025 – August 2025 (~4 months)*
 
-- Led end-to-end launch of AI chatbot product: defined scope, trained on 20,000+ customer interactions, set success metric (inbound volume), and shipped — reduced support load by 30% within the first quarter
-- Collaborated with the legal team to define GDPR compliance requirements for automated data handling; designed and shipped guardrails that achieved 87% accuracy on compliance checks, passing internal legal review
-- Balanced product scope against a 3-month delivery timeline; cut lower-priority features to ship the core experience on schedule
+- Led requirements gathering and architecture design for AI chatbot product; trained on 20,000+ customer interactions; shipped on schedule and reduced inbound support load by 30% within the first quarter
+- Collaborated with legal team to define GDPR compliance requirements; designed and shipped automated guardrails that achieved 87% accuracy, passing internal legal review
+- Balanced product scope against a fixed 4-month delivery timeline; cut lower-priority features to protect the core experience
 
 ### Packaged App Developer — Accenture
-*October 2023 – August 2024*
+*October 2023 – August 2024 (~1 year)*
 
-- Delivered automated file ingestion pipeline for a client's enterprise document workflow (10,000+ documents); defined scope, built the solution, and eliminated 15 hours/week of manual processing
-- Resolved critical cross-system integration failures across three .NET enterprise modules; coordinated across client engineering teams to diagnose, patch, and verify — unblocked a delayed delivery milestone
-- Operated in ambiguous, multi-stakeholder environments typical of large financial services clients
+- Delivered automated document ingestion pipeline for a financial services client (10,000+ files); eliminated 15 hours/week of manual processing and freed operations team for higher-value work
+- Resolved critical cross-system integration failures across three .NET enterprise modules; coordinated across client and internal engineering teams to diagnose, patch, and verify — unblocked a delayed delivery milestone
+- Navigated ambiguous, multi-stakeholder delivery environments typical of large financial services organisations
 
 ---
 
 ## Live Products (Product Ownership Track Record)
 
-| Product | Domain | Key Metric |
-|---------|--------|------------|
-| **NomadOps** (nomadops.online) | Payments + AI moderation | Live multi-provider payment platform with Claude API content policy |
-| **Sector8 AI** (sector8.ai) | AI support + compliance | 30% support reduction; 87% GDPR compliance accuracy at scale |
-| **Venturella** (venturella.co) | Multi-sector commerce | Production web platform, multiple commercial verticals |
+| Product | Domain | Key Outcome |
+|---------|--------|-------------|
+| **NomadOps** (nomadops.online) | Payments + AI moderation | Multi-provider payment platform with live transactions and Claude API content policy |
+| **Sector8 AI** (sector8.ai) | AI support + compliance | 30% support volume reduction; 87% GDPR compliance accuracy at scale |
+| **Venturella** (venturella.co) | Multi-sector commerce | Production platform across multiple commercial verticals |
 
 ---
 
 ## Selected Projects
 
-- **Contextual Ad Engine** — Real-time webpage-to-ad matching under 100ms; designed for distributed load (Java, Kafka, Elasticsearch) — demonstrates technical product thinking at platform scale
-- **Sentinel-AI** — Policy violation detection across multilingual social media; defined detection categories, built the pipeline, measured precision (Python, Gemini API, AWS Lambda)
+- **Contextual Ad Engine** — Real-time webpage-to-ad matching under 100ms; designed requirements, architecture, and delivery (Java, Kafka, Elasticsearch)
+- **Sentinel-AI** — Multilingual policy violation detector; defined detection categories, built the pipeline, shipped (Python, Gemini API, AWS Lambda)
 - **Lynk Browser** — Native macOS developer tool shipped end-to-end (Electron, React, TypeScript)
 
 ---
@@ -64,11 +66,11 @@ Technical product builder with a track record of taking products from ideation t
 
 ## Skills
 
-**Product:** Product roadmap, success metrics definition, data-driven prioritisation, stakeholder management, cross-functional delivery, user research, agile delivery, ROI-based trade-offs
+**Product:** Product roadmap, requirements gathering, system architecture, success metrics, stakeholder management, cross-functional delivery, agile delivery, ROI-based prioritisation, data-driven iteration, people management
 
 **Technical:** JavaScript, TypeScript, Python, Java, Swift, SQL | React, Node.js, Spring Boot, AWS, Docker, Supabase, Kafka, Elasticsearch
 
-**Domains:** Payment systems (Stripe, PayPal), GDPR compliance, agentic AI, content moderation, cloud infrastructure (AWS)
+**Domains:** Payment systems (Stripe, PayPal), GDPR compliance, agentic AI, content moderation, cloud infrastructure (AWS, Lambda)
 
 ---
 
@@ -80,5 +82,5 @@ Technical product builder with a track record of taking products from ideation t
 
 ---
 
-*Tailored for Revolut — Product Owner (Dublin) | 2026-05-13*
+*Tailored for Revolut — Product Owner (Dublin) | 2026-05-13 (v2 — includes intern management + product design)*
 *Full evaluation: reports/001-revolut-2026-05-13.md*
