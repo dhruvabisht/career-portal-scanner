@@ -1,0 +1,96 @@
+candidate:
+  full_name: "Dhruva Bisht"
+  email: "dhruvabisht.18@gmail.com"
+  phone: "+353 870376538"
+  location: "Dublin, Ireland"
+  timezone: "Europe/Dublin"
+  linkedin: "linkedin.com/in/dhruvabisht"
+  portfolio_url: "https://dhruvabisht.com/"
+  github: "github.com/dhruvabisht"
+  visa: "Stamp 1G Graduate Visa — full work authorisation, no employer sponsorship needed"
+
+target_roles:
+  primary:
+    - "Full-Stack Software Engineer"
+    - "Applied AI/ML Engineer"
+    - "Technical Product Owner"
+    - "Software Developer"
+    - "Software Engineer"
+    - "AI Developer"
+    - "QA Engineer"
+    - "Business Analyst"
+    - "ML Engineer"
+    - "Cloud Engineer"
+  secondary:
+    - "AI Auditor/Compliance"
+    - "Technical BA"
+    - "Solutions Architect"
+    - "Data Analyst/Engineer"
+  archetypes:
+    - name: "Full-Stack Software Engineer"
+      level: "Junior-Mid"
+      fit: "primary"
+    - name: "AI/ML Developer"
+      level: "Junior-Mid"
+      fit: "primary"
+    - name: "Technical Product Owner"
+      level: "Mid"
+      fit: "primary"
+    - name: "QA / Test Engineer"
+      level: "Junior-Mid"
+      fit: "primary"
+    - name: "Business Analyst"
+      level: "Junior-Mid"
+      fit: "primary"
+    - name: "Cloud / DevOps Engineer"
+      level: "Junior-Mid"
+      fit: "primary"
+    - name: "Solutions Architect"
+      level: "Junior-Mid"
+      fit: "secondary"
+    - name: "Data Analyst/Engineer"
+      level: "Junior-Mid"
+      fit: "secondary"
+
+compensation:
+  target_range: "€40,000–€60,000"
+  min_floor: 25000
+  currency: "EUR"
+  notes: "Salaries ABOVE €60k are a POSITIVE signal — do not penalise. Below €25k is a deal-breaker."
+
+location_policy:
+  base: "Dublin, Ireland"
+  open_to_hybrid: true
+  open_to_remote: true
+  relocation: false
+  commute_max: "Dublin city and suburbs"
+
+deal_breakers:
+  - "Below €25k base salary"
+  - "Requires employer sponsorship"
+
+narrative:
+  headline: "Full-stack engineer with production AI experience — built systems that cut manual work 60% and handle 10k events/min"
+  exit_story: "MSc CS graduate from UCD Dublin with 2+ years of industry experience spanning enterprise (Accenture), early-stage AI startups (Advice Bytes), and product engineering (NomadEire). I build across the full stack but my edge is integrating AI into real products — not demos, actual production systems with measurable impact."
+  superpowers:
+    - "End-to-end delivery: I own features from architecture to deployment"
+    - "AI integration: production experience with Claude, OpenAI, Gemini APIs in agentic workflows"
+    - "Performance engineering: sub-200ms APIs, 10k events/min Kafka pipelines"
+    - "Fast learner: shipped across Python, Java, TypeScript, Swift in real roles"
+  proof_points:
+    - name: "Sentinel-AI"
+      hero_metric: "84% ML accuracy, 60% manual review reduction"
+      stack: "Python, Claude API, OpenAI API, scikit-learn, AWS Lambda"
+    - name: "Advice Bytes Chatbot"
+      hero_metric: "30% inbound reduction, 87% GDPR accuracy"
+      stack: "Claude API, agentic workflows, HITL escalation"
+    - name: "Kafka Ad Engine"
+      hero_metric: "10,000+ events/min at sub-100ms latency"
+      stack: "Apache Kafka, Node.js, Elasticsearch, AWS EC2"
+    - name: "Venturella"
+      hero_metric: "Sub-200ms PostgreSQL queries, full payment layer"
+      stack: "React, Node.js, Supabase, Stripe"
+
+language:
+  default: "en"
+  modes_dir: "modes"

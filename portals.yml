@@ -1,0 +1,380 @@
+# Portal Scanner Configuration — Dhruva Bisht (Dublin, Ireland)
+# Tailored for Irish & EMEA market. Target: Full-Stack, AI/ML, Product Owner, QA, BA, Cloud.
+
+title_filter:
+  positive:
+    - "Software Engineer"
+    - "Software Developer"
+    - "Full Stack"
+    - "Full-Stack"
+    - "Backend Engineer"
+    - "Backend Developer"
+    - "Frontend Engineer"
+    - "Frontend Developer"
+    - "Web Developer"
+    - "Application Developer"
+    - "Platform Engineer"
+    - "Cloud Engineer"
+    - "DevOps Engineer"
+    - "Site Reliability"
+    - "SRE"
+    - "AI Engineer"
+    - "Applied AI"
+    - "ML Engineer"
+    - "Machine Learning"
+    - "LLM"
+    - "Agentic"
+    - "GenAI"
+    - "Generative AI"
+    - "NLP Engineer"
+    - "AI Developer"
+    - "AI Specialist"
+    - "MLOps"
+    - "Data Scientist"
+    - "Product Owner"
+    - "Product Manager"
+    - "Technical Product"
+    - "Scrum Master"
+    - "QA Engineer"
+    - "Quality Assurance"
+    - "Test Engineer"
+    - "Automation Tester"
+    - "SDET"
+    - "Test Analyst"
+    - "Data Analyst"
+    - "Data Engineer"
+    - "Business Intelligence"
+    - "BI Developer"
+    - "Analytics Engineer"
+    - "Technology Consultant"
+    - "IT Consultant"
+    - "Technical Consultant"
+    - "Business Analyst"
+    - "Technical Business Analyst"
+    - "Systems Analyst"
+    - "Solutions Engineer"
+    - "Solutions Architect"
+    - "Integration Engineer"
+    - "Cloud Architect"
+    - "Graduate Engineer"
+    - "Graduate Developer"
+    - "Associate Engineer"
+    - "Associate Developer"
+    - "Junior Developer"
+    - "Junior Engineer"
+    - "Technology Analyst"
+    - "AI Auditor"
+    - "AI Compliance"
+    - "AI Risk"
+    - "Graduate"
+    - "Technology"
+    - "Developer"
+    - "Engineer"
+  negative:
+    - "Principal"
+    - "Director"
+    - "VP"
+    - "Vice President"
+    - "C-Level"
+    - "CTO"
+    - "CIO"
+    - "Chief"
+    - "Head of Engineering"
+    - "Engineering Manager"
+    - "Staff Engineer"
+    - "PHP"
+    - "Ruby"
+    - "COBOL"
+    - "Mainframe"
+    - "Embedded"
+    - "Firmware"
+    - "FPGA"
+    - "ASIC"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "SAP"
+    - "Oracle EBS"
+    - "Salesforce Admin"
+    - "Siebel"
+    - "Hardware"
+    - "Mechanical"
+    - "Electrical"
+    - "Network Engineer"
+    - "Senior"
+  seniority_boost:
+    - "Graduate"
+    - "Junior"
+    - "Associate"
+    - "Mid"
+    - "Mid-Level"
+
+search_queries:
+  # -- Irish job boards (primary market) --
+  - name: IrishJobs — Software Engineer
+    query: 'site:irishjobs.ie "software engineer" OR "software developer" OR "cloud engineer" OR "Junior" Dublin'
+    enabled: true
+
+  - name: IrishJobs — Full Stack
+    query: 'site:irishjobs.ie "full stack" OR "full-stack" developer OR engineer Dublin'
+    enabled: true
+
+  - name: IrishJobs — AI/ML
+    query: 'site:irishjobs.ie "AI engineer" OR "machine learning" OR "applied AI" Dublin'
+    enabled: true
+
+  - name: IrishJobs — Product Owner
+    query: 'site:irishjobs.ie "product owner" OR "product manager" Dublin technology'
+    enabled: true
+
+  - name: IrishJobs — QA Engineer
+    query: 'site:irishjobs.ie "QA engineer" OR "quality assurance" OR "test engineer" Dublin'
+    enabled: true
+
+  - name: IrishJobs — Data/BA
+    query: 'site:irishjobs.ie "data analyst" OR "data engineer" OR "business intelligence" Dublin'
+    enabled: true
+
+  - name: IrishJobs — Graduate
+    query: 'site:irishjobs.ie "graduate programme" OR "graduate engineer" OR "technology graduate" Dublin'
+    enabled: true
+
+  - name: Indeed Ireland — Software Engineer
+    query: 'site:ie.indeed.com "software engineer" OR "software developer" OR "cloud engineer" OR "Junior" Dublin'
+    enabled: true
+
+  - name: Indeed Ireland — AI/ML
+    query: 'site:ie.indeed.com "AI engineer" OR "machine learning" OR "NLP" Dublin Ireland'
+    enabled: true
+
+  - name: Silicon Republic — Software Engineer
+    query: 'site:siliconrepublic.com/jobs "software engineer" OR "developer" Dublin Ireland'
+    enabled: true
+
+  - name: Silicon Republic — AI/ML
+    query: 'site:siliconrepublic.com/jobs "AI" OR "machine learning" OR "generative" Dublin Ireland'
+    enabled: true
+
+  - name: Greenhouse — Software Engineer Ireland
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "software engineer" OR "developer" "Dublin" OR "Ireland"'
+    enabled: true
+
+  - name: Ashby — Software Engineer Ireland
+    query: 'site:jobs.ashbyhq.com "software engineer" OR "cloud engineer" OR "Junior" Dublin OR Ireland'
+    enabled: true
+
+  - name: Ashby — AI Engineer Ireland
+    query: 'site:jobs.ashbyhq.com "AI engineer" OR "applied AI" Dublin OR Ireland'
+    enabled: true
+
+  - name: WorkAtAStartup — Remote Europe
+    query: 'site:workatastartup.com "software engineer" OR "full stack" remote Europe OR Ireland'
+    enabled: true
+
+tracked_companies:
+  # -- ATS API companies (Greenhouse) --
+  - name: Intercom
+    careers_url: https://job-boards.greenhouse.io/intercom
+    api: https://boards-api.greenhouse.io/v1/boards/intercom/jobs
+    api_provider: greenhouse
+    notes: "Dublin HQ. AI-native customer service platform."
+    enabled: true
+
+  - name: Anthropic
+    careers_url: https://job-boards.greenhouse.io/anthropic
+    api: https://boards-api.greenhouse.io/v1/boards/anthropic/jobs
+    api_provider: greenhouse
+    notes: "AI safety + Claude API."
+    enabled: true
+
+  - name: Vercel
+    careers_url: https://job-boards.greenhouse.io/vercel
+    api: https://boards-api.greenhouse.io/v1/boards/vercel/jobs
+    api_provider: greenhouse
+    notes: "Frontend AI tooling."
+    enabled: true
+
+  - name: Glean
+    careers_url: https://job-boards.greenhouse.io/gleanwork
+    api: https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs
+    api_provider: greenhouse
+    notes: "Enterprise AI search."
+    enabled: true
+
+  - name: Wayve
+    careers_url: https://job-boards.greenhouse.io/wayve
+    api: https://boards-api.greenhouse.io/v1/boards/wayve/jobs
+    api_provider: greenhouse
+    notes: "London UK. Autonomous driving AI."
+    enabled: true
+
+  - name: PolyAI
+    careers_url: https://job-boards.eu.greenhouse.io/polyai
+    api: https://boards-api.greenhouse.io/v1/boards/polyai/jobs
+    api_provider: greenhouse
+    notes: "London. Voice AI for enterprise contact centres."
+    enabled: true
+
+  - name: Temporal
+    careers_url: https://job-boards.greenhouse.io/temporal
+    api: https://boards-api.greenhouse.io/v1/boards/temporal/jobs
+    api_provider: greenhouse
+    notes: "Workflow orchestration."
+    enabled: true
+
+  - name: Arize AI
+    careers_url: https://job-boards.greenhouse.io/arizeai
+    api: https://boards-api.greenhouse.io/v1/boards/arizeai/jobs
+    api_provider: greenhouse
+    notes: "LLMOps / AI observability."
+    enabled: true
+
+  - name: Runway ML
+    careers_url: https://job-boards.greenhouse.io/runwayml
+    api: https://boards-api.greenhouse.io/v1/boards/runwayml/jobs
+    api_provider: greenhouse
+    notes: "Generative AI video."
+    enabled: true
+
+  # -- ATS API companies (Lever) --
+  - name: Mistral AI
+    careers_url: https://jobs.lever.co/mistral
+    api: https://api.lever.co/v0/postings/mistral?mode=json
+    api_provider: lever
+    notes: "Paris. European AI lab."
+    enabled: true
+
+  - name: Weights & Biases
+    careers_url: https://jobs.lever.co/wandb
+    api: https://api.lever.co/v0/postings/wandb?mode=json
+    api_provider: lever
+    notes: "MLOps platform."
+    enabled: true
+
+  # -- ATS API companies (Ashby) --
+  - name: Synthesia
+    careers_url: https://jobs.ashbyhq.com/synthesia
+    api_provider: ashby
+    ashby_slug: synthesia
+    notes: "London. AI video generation."
+    enabled: true
+
+  - name: Faculty
+    careers_url: https://jobs.ashbyhq.com/faculty
+    api_provider: ashby
+    ashby_slug: faculty
+    notes: "London. Applied AI consultancy."
+    enabled: true
+
+  - name: Cohere
+    careers_url: https://jobs.ashbyhq.com/cohere
+    api_provider: ashby
+    ashby_slug: cohere
+    notes: "AI/LLM provider."
+    enabled: true
+
+  - name: Supabase
+    careers_url: https://jobs.ashbyhq.com/supabase
+    api_provider: ashby
+    ashby_slug: supabase
+    notes: "Open-source Firebase alternative."
+    enabled: true
+
+  - name: Pinecone
+    careers_url: https://jobs.ashbyhq.com/pinecone
+    api_provider: ashby
+    ashby_slug: pinecone
+    notes: "Vector database."
+    enabled: true
+
+  - name: LangChain
+    careers_url: https://jobs.ashbyhq.com/langchain
+    api_provider: ashby
+    ashby_slug: langchain
+    notes: "LangChain/LangSmith framework."
+    enabled: true
+
+  - name: Perplexity
+    careers_url: https://jobs.ashbyhq.com/perplexity
+    api_provider: ashby
+    ashby_slug: perplexity
+    notes: "AI-native search."
+    enabled: true
+
+  - name: n8n
+    careers_url: https://jobs.ashbyhq.com/n8n
+    api_provider: ashby
+    ashby_slug: n8n
+    notes: "Workflow automation. Remote EU/US."
+    enabled: true
+
+  # -- Ireland-based / Dublin tech (websearch) --
+  - name: HubSpot Dublin
+    careers_url: https://www.hubspot.com/careers
+    scan_method: websearch
+    scan_query: 'site:hubspot.com/careers "Dublin" "software engineer" OR "developer" OR "AI"'
+    notes: "Large Dublin EMEA engineering hub."
+    enabled: true
+
+  - name: Stripe Dublin
+    careers_url: https://stripe.com/jobs
+    scan_method: websearch
+    scan_query: 'site:stripe.com/jobs "Dublin" "software engineer" OR "developer"'
+    notes: "Fintech. Large Dublin engineering presence."
+    enabled: true
+
+  - name: Workday Dublin
+    careers_url: https://www.workday.com/en-us/company/careers
+    scan_method: websearch
+    scan_query: '"workday" careers "Dublin" "software engineer" OR "developer" OR "technology"'
+    notes: "Large Dublin engineering hub."
+    enabled: true
+
+  - name: Google Dublin
+    careers_url: https://careers.google.com
+    scan_method: websearch
+    scan_query: 'site:careers.google.com "Dublin" "software engineer" OR "developer" 2026'
+    notes: "EMEA HQ in Dublin. Graduate + mid-level roles."
+    enabled: true
+
+  - name: Microsoft Dublin
+    careers_url: https://careers.microsoft.com
+    scan_method: websearch
+    scan_query: 'site:careers.microsoft.com "Dublin" "software engineer" OR "developer" OR "AI"'
+    notes: "Large Dublin engineering presence."
+    enabled: true
+
+  - name: Indeed Dublin Office
+    careers_url: https://www.indeed.jobs
+    scan_method: websearch
+    scan_query: '"indeed" careers "Dublin" "software engineer" OR "developer" OR "data"'
+    notes: "Indeed engineering hub in Dublin."
+    enabled: true
+
+  - name: Workiva
+    careers_url: https://www.workiva.com/careers
+    scan_method: websearch
+    scan_query: '"workiva" careers "Dublin" OR "Ireland" "software engineer" OR "developer"'
+    notes: "Cloud reporting platform. Dublin office."
+    enabled: true
+
+  - name: Fenergo
+    careers_url: https://www.fenergo.com/careers
+    scan_method: websearch
+    scan_query: '"fenergo" careers "Dublin" "software" OR "developer" OR "engineer" OR "analyst"'
+    notes: "Dublin fintech. CLM software."
+    enabled: true
+
+  - name: Wayflyer
+    careers_url: https://www.wayflyer.com/careers
+    scan_method: websearch
+    scan_query: '"wayflyer" careers "Dublin" "software" OR "engineer" OR "developer"'
+    notes: "Dublin fintech startup."
+    enabled: true
+
+  - name: Tines
+    careers_url: https://www.tines.com/careers
+    scan_method: websearch
+    scan_query: '"tines" careers "Dublin" OR "Ireland" "software" OR "engineer" OR "automation"'
+    notes: "Dublin. No-code security automation. Series B."
+    enabled: true
