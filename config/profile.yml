@@ -1,0 +1,96 @@
+candidate:
+  full_name: "Dhruva Bisht"
+  email: "dhruvabisht.18@gmail.com"
+  phone: "+353 870376538"
+  location: "Dublin, Ireland"
+  linkedin: ""
+  portfolio_url: "https://dhruvabisht.com/"
+  github: ""
+  twitter: ""
+
+target_roles:
+  primary:
+    - "Full-Stack Software Engineer"
+    - "Applied AI/ML Engineer"
+    - "Technical Product Owner"
+    - "Software Developer"
+    - "Software Engineer"
+    - "AI Developer"
+    - "QA Engineer"
+    - "Business Analyst"
+    - "ML Engineer"
+    - "Cloud Engineer"
+  secondary:
+    - "AI Auditor/Compliance"
+    - "Technical BA"
+    - "Solutions Architect"
+    - "Data Analyst/Engineer"
+  archetypes:
+    - name: "Full-Stack Software Engineer"
+      level: "Junior-Mid"
+      fit: "primary"
+    - name: "Applied AI/ML Engineer"
+      level: "Junior-Mid"
+      fit: "primary"
+    - name: "Technical Product Owner"
+      level: "Junior-Mid"
+      fit: "primary"
+    - name: "QA/Test Engineer"
+      level: "Junior-Mid"
+      fit: "primary"
+    - name: "Cloud Engineer"
+      level: "Junior-Mid"
+      fit: "primary"
+    - name: "Business Analyst"
+      level: "Junior-Mid"
+      fit: "primary"
+    - name: "Solutions Architect"
+      level: "Junior"
+      fit: "secondary"
+    - name: "Data Analyst/Engineer"
+      level: "Junior-Mid"
+      fit: "secondary"
+
+narrative:
+  headline: "Full-Stack Engineer with production AI systems and agentic workflow experience"
+  exit_story: "Completed MSc CS at UCD Dublin (2:1) while shipping production AI tools. Now building at NomadEire as a Software Engineer. Target: a role in Dublin (or remote) where I can grow across full-stack, AI, or product engineering."
+  superpowers:
+    - "End-to-end product delivery — from requirements to deployed production"
+    - "AI integration: Claude/OpenAI APIs, RAG pipelines, agentic orchestration"
+    - "Real-time data systems — Kafka, sub-100ms latency"
+    - "Acting as both engineer and product owner (NomadOps)"
+    - "Fast shipping without cutting corners on quality"
+  proof_points:
+    - name: "Sentinel-AI"
+      hero_metric: "84% accuracy, 60% reduction in manual review"
+    - name: "Venturella Payment Platform"
+      hero_metric: "Full payment layer, sub-200ms PostgreSQL"
+    - name: "Advice Bytes Chatbot"
+      hero_metric: "30% inbound reduction, 87% GDPR accuracy"
+    - name: "Kafka Ad Engine"
+      hero_metric: "10k events/min, sub-100ms latency"
+    - name: "NomadOps"
+      hero_metric: "Full PO + engineer delivery, end-to-end ownership"
+  deal_breakers:
+    - "Below €25k base salary"
+    - "Roles requiring employer visa sponsorship"
+
+compensation:
+  target_range: "€40,000–€60,000"
+  currency: "EUR"
+  minimum: "€30,000"
+  above_target_note: "Salaries ABOVE €60k are a POSITIVE signal — score higher, not lower"
+  location_flexibility: "Dublin preferred, open to hybrid/remote in Ireland"
+
+location:
+  country: "Ireland"
+  city: "Dublin"
+  timezone: "IST (GMT+1)"
+  visa_status: "Stamp 1G Graduate Visa — full work authorisation, no employer sponsorship needed"
+
+cv:
+  output_format: "html"
+
+language:
+  modes_dir: "modes"
+  default: "en"
