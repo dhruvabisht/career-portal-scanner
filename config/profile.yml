@@ -1,0 +1,86 @@
+# Career-Ops Profile Configuration — Dhruva Bisht
+
+candidate:
+  full_name: "Dhruva Bisht"
+  email: "dhruvabisht.18@gmail.com"
+  phone: "+353 870376538"
+  location: "Dublin, Ireland"
+  linkedin: "linkedin.com/in/dhruvabisht"
+  portfolio_url: "https://dhruvabisht.com/"
+  github: "github.com/dhruvabisht"
+
+target_roles:
+  primary:
+    - "Full-Stack Software Engineer"
+    - "Applied AI/ML Engineer"
+    - "Technical Product Owner"
+    - "Software Developer"
+    - "Software Engineer"
+    - "AI Developer"
+    - "QA Engineer"
+    - "Business Analyst"
+    - "ML Engineer"
+    - "Cloud Engineer"
+  secondary:
+    - "AI Auditor/Compliance"
+    - "Technical BA"
+    - "Solutions Architect"
+    - "Data Analyst/Engineer"
+  archetypes:
+    - name: "Full-Stack Software Engineer"
+      level: "Junior/Mid"
+      fit: "primary"
+    - name: "Applied AI/ML Engineer"
+      level: "Junior/Mid"
+      fit: "primary"
+    - name: "Technical Product Owner"
+      level: "Mid"
+      fit: "primary"
+    - name: "QA/Test Engineer"
+      level: "Junior/Mid"
+      fit: "primary"
+    - name: "Business Analyst"
+      level: "Junior/Mid"
+      fit: "primary"
+    - name: "Solutions Architect"
+      level: "Associate/Mid"
+      fit: "secondary"
+    - name: "Data Engineer/Analyst"
+      level: "Junior/Mid"
+      fit: "secondary"
+
+narrative:
+  headline: "Full-Stack Engineer & Applied AI builder — MSc CS UCD Dublin, Stamp 1G (no sponsorship)"
+  exit_story: "Built production AI systems at startups and Accenture, now targeting Dublin/Ireland tech roles with strong full-stack and applied AI skills."
+  superpowers:
+    - "End-to-end AI pipeline delivery (Claude/OpenAI/Gemini APIs to production)"
+    - "Full-stack proficiency: React + Node.js + PostgreSQL + AWS"
+    - "Real-time data systems: Kafka at 10k events/min sub-100ms"
+    - "Product owner + engineer in one: NomadOps delivered solo"
+    - "Fast ramp: MSc 2:1 UCD Dublin, BTech 9.2/10"
+  proof_points:
+    - name: "Sentinel-AI"
+      hero_metric: "84% classification accuracy, 60% manual review reduction"
+    - name: "Kafka Ad Engine"
+      hero_metric: "10k events/min, sub-100ms latency"
+    - name: "Venturella Payment Layer"
+      hero_metric: "sub-200ms PostgreSQL query response"
+    - name: "Advice Bytes Chatbot"
+      hero_metric: "30% inbound reduction, 87% GDPR accuracy"
+    - name: "NomadOps"
+      hero_metric: "Full PO + engineer delivery"
+
+compensation:
+  target_range: "€40,000-€60,000"
+  currency: "EUR"
+  minimum: "€30,000"
+  location_flexibility: "Dublin on-site or hybrid preferred; open to remote Ireland/EU"
+
+location:
+  country: "Ireland"
+  city: "Dublin"
+  timezone: "IST (GMT+1)"
+  visa_status: "Stamp 1G Graduate Visa - full work authorisation, no employer sponsorship needed"
+
+cv:
+  output_format: "html"
